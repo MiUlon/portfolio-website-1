@@ -134,10 +134,11 @@ section {
   pointer-events: none;
 }
 
+/* Header content */
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  min-height: 100vh;
+  height: 100%;
 }
 .header-content .left-header {
   display: flex;
